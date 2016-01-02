@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mini-PopOver</title>
+
+    <!-- Photon.css is used for the general styles-->
+    <link rel="stylesheet" href="photon.css">
+
+
+    <!--You need to integrate both files!-->
+    <link rel="stylesheet" href="mini-popover.css">
+    <script src="mini-popover.js"></script>
+    <!--The Script is for the initialization and actions. The CSS File contains all the styles. To set your own style rules, read the documentation or, if there's nothing documented about, change the CSS file-->
+
+
+    <style>
+      .test-button {
+        position: absolute;
+        left: calc(60% - 10px);
+        top: calc(60% - 5px);
+      }
+      .test-button2 {
+        position: absolute;
+        left: calc(40% - 10px);
+        top: calc(40% - 5px);
+      }
+      body {
+        height: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--The buttons are really harmless. The just want to be clicked to show how the framewok works. If you don't like buttons use a "a" tag or something similar. -->
+
+    <button class="btn btn-default test-button" data-popover="#popover1">Test 1</button>
+    <button class="btn btn-default test-button2" data-popover="#popover1">Test 2</button>
+
+    <!--The Mini-PopOver HTML Code is here!-->
+    <div class="pop-over" id="popover1">
+      <div class="left" style="background-color: #f00">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1" width="30" height="30" viewBox="0 0 50 50" style="margin-top: 7.5px;">
+          <path style="fill: #fff;" d="M 25 1 C 16.161847 1 9 8.1618474 9 17 C 9 24.309712 12.86047 32.164099 16.65625 38.25 C 20.45203 44.335901 24.25 48.65625 24.25 48.65625 A 1.0001 1.0001 0 0 0 25.75 48.65625 C 25.75 48.65625 29.549557 44.246299 33.34375 38.125 C 37.137943 32.003701 41 24.167647 41 17 C 41 8.1618474 33.838153 1 25 1 z M 25 3 C 32.761847 3 39 9.2381526 39 17 C 39 23.432353 35.362057 31.083799 31.65625 37.0625 C 28.549407 42.074874 25.922198 45.299412 25 46.40625 C 24.069678 45.306901 21.441326 42.153946 18.34375 37.1875 C 14.63953 31.248401 11 23.590288 11 17 C 11 9.2381526 17.238153 3 25 3 z M 25 11 C 21.145852 11 18 14.145852 18 18 C 18 21.854148 21.145852 25 25 25 C 28.854148 25 32 21.854148 32 18 C 32 14.145852 28.854148 11 25 11 z M 25 13 C 27.773268 13 30 15.226732 30 18 C 30 20.773268 27.773268 23 25 23 C 22.226732 23 20 20.773268 20 18 C 20 15.226732 22.226732 13 25 13 z" color="#000" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans"></path>
+        </svg>
+      </div>
+      <div class="center">
+        <h1>Current Location</h1>
+        <h2>5664 Greenridge Road, Castro Valley, California</h2>
+      </div>
+    </div>
+    <!--End of the HTML Code for a Mini-PopOver-->
+
+  </body>
+</html>
