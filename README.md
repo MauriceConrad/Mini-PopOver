@@ -15,7 +15,7 @@ First we had to integrate the "mini-popover.css", the "mini-popover.js" and of c
 ```html
   <link rel="stylesheet" href="photon.css">
   
-  <link rel="stylesheet" href="mini-pop-over.css">
+  <link rel="stylesheet" href="mini-popover.css">
   <script src="mini-popover.js"></script>
 
 ```
