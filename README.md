@@ -1,7 +1,7 @@
 # Mini-PopOver
 A JS, CSS Photon-Plugin for Mini-PopOvers in style of OS X El Capitan.
 
-If you don't include the deafult "photon.css" file, the popups will work but don't looks nice.
+If you don't include the deafult "photon.css" file, the popups will work but wouldn't look nice.
 
 To initiale a target element like a button, a, div or any other tag for a Mini-PopOver, the target element needs a "data-popover" attribute wich contains a querySelector for the PopOver-Element.
 
@@ -17,7 +17,6 @@ First we had to integrate the "mini-popover.css", the "mini-popover.js" and of c
   
   <link rel="stylesheet" href="mini-popover.css">
   <script src="mini-popover.js"></script>
-
 ```
 
  A example for a target element which installs itself with a PopOver Element:
@@ -43,11 +42,12 @@ Now, we need to create a DIV construction which can be selected by the querySele
   </div>
 ```
 
-That's it!
-The three tags:
-"left", "center" and "right".
+That's it.
+You can style the three tags
+"left", "center" and "right"
+just as you want.
 
-Except the "center" tag you can omit the other tags("left" & "right") just as you want. They are'nt required.
+Except the "center" tag you can omit the other tags("left" & "right") just as you want. They aren't required.
 
 #Settings
 
