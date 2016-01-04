@@ -52,13 +52,6 @@ just as you want.
 
 Except the "center" tag you can omit the other tags("left" & "right") just as you want. They aren't required.
 
-#Qustions?
+# Questions?
 
 You have questions? Ask me :)
-
-
-#It doesn't work
-
-If you are to stupid to understand the framework or the documentation is stupid or when I made  mistakes, test the example.html file.
-
-
