@@ -52,9 +52,9 @@ just as you want.
 
 Except the "center" tag you can omit the other tags("left" & "right") just as you want. They aren't required.
 
-#Settings
+#Qustions?
 
-If you want to change the color of the "left" tag, just change the "background-color" CSS property of it.
+You have questions? Ask me :)
 
 
 #It doesn't work
