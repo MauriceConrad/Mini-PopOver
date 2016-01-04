@@ -1,4 +1,7 @@
 # Mini-PopOver
+
+![Result](https://camo.githubusercontent.com/042f55d0fd44c2853ce86b29879aa6440239c4c4/687474703a2f2f6673352e64697265637475706c6f61642e6e65742f696d616765732f3136303130342f6a6978736e36776d2e706e67)
+
 A JS, CSS Photon-Plugin for Mini-PopOvers in style of OS X El Capitan.
 
 If you don't include the deafult "photon.css" file, the popups will work but wouldn't look nice.
