@@ -64,7 +64,7 @@ function setPopOver(elm, popover, evt) {
         popOver.children[0].style.marginLeft = "-10px";
       }
     }
-    popOver.style.backgroundPosition = "calc(100% - 10px) 2px";
+    popOver.style.backgroundPosition = "calc(100% + 39px) 2px";
     popOver.style.backgroundImage = 'url(\'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50"><polygon points="0,15 0,35 12,25" style="fill: ' + '#eee' + '"/></svg>\')';
     popOver.style.left = (elm.offsetLeft - popOver.offsetWidth - 5) + "px";
   }
