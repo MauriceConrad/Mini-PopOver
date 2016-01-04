@@ -6,8 +6,9 @@
   width: 300px;
   -webkit-filter: drop-shadow(0px 0px 13px rgba(60, 60, 60, .4));
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50"><polygon points="12,15 12,35 0,25" style="fill: #eee"/></svg>');
+  background-repeat: no-repeat;
   display: none;
-  -webkit-backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(0px);
 }
 .pop-over .left, .pop-over .right {
   display: inline-block;
@@ -25,7 +26,9 @@
   text-align: center;
 }
 .pop-over .center, .pop-over .right {
-  background-color: #eee;
+  background-color: rgba(245, 245, 245, 1);
+  /*-webkit-backdrop-filter: blur(30px);*/
+  /*Activate it if you use Safari or Electron usw. support this feauture*/
 }
 .pop-over .center {
   float: left;
