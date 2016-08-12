@@ -4,9 +4,9 @@
 
 A JS, CSS Photon-Plugin for Mini-PopOvers in style of OS X El Capitan.
 
-If you don't include the deafult "photon.css" file, the popups will work but wouldn't look nice.
+If you don't include the deafult "photon.css" file, the popups will work but it wouldn't looks nice.
 
-To initialize a target element like a button, a, div or any other tag for a Mini-PopOver, the target element needs a "data-popover" attribute wich contains a querySelector for the PopOver-Element.
+To initialize a target element like a button, a, div or any other tag for a Mini-PopOver, the target element needs a "data-popover" attribute that contains a querySelector for the PopOver-Element.
 
 The PopOver Element is just a DIV construction.
 
